@@ -3,11 +3,64 @@
 
 <head>
     <meta charset="utf-8">
-    <title> Site web </title>
+    <title> Pet shop </title>
+
+
+    <link rel="stylesheet" href="./styles/stylesheet.css">
 </head>
 
 <body>
-        <a href="https://www.w3schools.com/html/default.asp" target="_blank">Je clique ici quand j'ai besoin d'aide</a>  </p>
+<h1> Pet shop </h1>
+<h2> fr fr </h2>
+
+    <a href="https://www.w3schools.com/html/default.asp" target="_blank">Je clique ici quand j'ai besoin d'aide </a>  </p>
+
+<p>Je suis un paragraphe</p>
+<p>Je suis un paragraphe</p>
+<p>Je suis un paragraphe</p>
+
+<img src="beast.png" width="25" />
+
+
+<!-- formulaire -->
+    <form action="traitement.php" method="post">
+        <h2>Formulaire d'Adoption</h2>
+
+        <!-- Champ pour le nom -->
+        <label for="nom">Votre nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <!-- Champ pour le nombre d'animaux -->
+        <label for="nombre">Nombre d’animaux à adopter :</label>
+        <input type="number" id="nombre" name="nombre" min="1" required>
+
+        <!-- Case à cocher pour le jardin -->
+        <label>
+            <input type="checkbox" name="jardin"> Je possède un jardin
+        </label>
+
+        <!-- Liste des prérequis -->
+        <h3>Prérequis pour l’adoption :</h3>
+        <ul>
+            <li>Avoir un espace suffisant pour l’animal.</li>
+            <li>Fournir une alimentation adaptée.</li>
+            <li>Consulter un vétérinaire régulièrement.</li>
+            <li>Offrir du temps et de l'affection.</li>
+        </ul>
+
+        <!-- Bouton de soumission -->
+        <button type="submit">Envoyer la demande</button>
+    </form>
+
+
+
 </body>
+
+<strong>Boomalope</strong><br>
+<img src="images/boomalope.jpg" alt="Description de l'image">
+<!-- Ceci est un commentaire -->
+<!-- alt ne s'affiche pas en même temps que l'image -->
+
+
 
 </html >
